@@ -1,0 +1,9 @@
+# Python
+__pycache__/
+*.pyc
+
+# Mac System
+.DS_Store
+
+# Project Temp Files
+temp_screenshot.png

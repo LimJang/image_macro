@@ -1,0 +1,25 @@
+{
+    "execution_mode": "any",
+    "actions": [
+        {
+            "name": "자동 매칭",
+            "image_path": "macro_project/images/자동 매칭_1767922251.png",
+            "delay": 1.0
+        },
+        {
+            "name": "수락",
+            "image_path": "macro_project/images/수락_1767922280.png",
+            "delay": 1.0
+        },
+        {
+            "name": "나가기",
+            "image_path": "macro_project/images/나가기_1767922388.png",
+            "delay": 1.0
+        },
+        {
+            "name": "파티튕김",
+            "image_path": "/Users/ogf2002/macro_project/images/파티튕김_1767996174.png",
+            "delay": 1.0
+        }
+    ]
+}
