@@ -1,25 +1,65 @@
 {
-    "execution_mode": "any",
-    "actions": [
-        {
-            "name": "자동 매칭",
-            "image_path": "macro_project/images/자동 매칭_1767922251.png",
-            "delay": 1.0
-        },
+    "execution_mode": "sequential",
+    "tree": [
         {
             "name": "수락",
-            "image_path": "macro_project/images/수락_1767922280.png",
-            "delay": 1.0
+            "type": "normal",
+            "image_path": "/Users/ogf2002/macro_project/images/수락_1767922280.png",
+            "delay": 1.0,
+            "cooldown": 0.0,
+            "repeat": 2,
+            "last_run": 0.0,
+            "children": []
+        },
+        {
+            "name": "자동매칭",
+            "type": "normal",
+            "image_path": "/Users/ogf2002/macro_project/images/자동 매칭_1767922251.png",
+            "delay": 1.0,
+            "cooldown": 0.0,
+            "repeat": 2,
+            "last_run": 0.0,
+            "children": []
         },
         {
             "name": "나가기",
-            "image_path": "macro_project/images/나가기_1767922388.png",
-            "delay": 1.0
-        },
+            "type": "normal",
+            "image_path": "/Users/ogf2002/macro_project/images/나가기_1767922388.png",
+            "delay": 1.0,
+            "cooldown": 0.0,
+            "repeat": 2,
+            "last_run": 0.0,
+            "children": []
+        }
+    ],
+    "error_watchers": [
         {
-            "name": "파티튕김",
+            "name": "튕김 감시",
+            "type": "error_root",
             "image_path": "/Users/ogf2002/macro_project/images/파티튕김_1767996174.png",
-            "delay": 1.0
+            "delay": 1.0,
+            "cooldown": 0.0,
+            "last_run": 1768005178.5438411,
+            "children": [
+                {
+                    "name": "튕김해결",
+                    "type": "error_child",
+                    "image_path": "/Users/ogf2002/macro_project/images/파티튕김_1767996174.png",
+                    "delay": 1.0,
+                    "cooldown": 0.0,
+                    "last_run": 0.0,
+                    "children": []
+                },
+                {
+                    "name": "매칭 취소",
+                    "type": "error_child",
+                    "image_path": "/Users/ogf2002/macro_project/images/매칭취소_1767996899.png",
+                    "delay": 1.0,
+                    "cooldown": 0.0,
+                    "last_run": 1768005183.736036,
+                    "children": []
+                }
+            ]
         }
     ]
 }
